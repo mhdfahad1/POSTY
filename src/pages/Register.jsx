@@ -23,7 +23,7 @@ function Register() {
 
     }
     else {
-      toast.warning("Please Type data")
+      toast.warning("Please enter valid data")
     }
   }
 
@@ -37,29 +37,7 @@ function Register() {
     }
 
   }
-  const emailCheck = (e) => {
-    const { value } = e.target
-    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))+$/;
-
-    if (!!re.test(value) && value.endsWith("@gmail.com")){
-      setData({ ...data, email: e.target.value })
-    } else {
-      toast.warning('Enter Valid Email')
-    }
-
-  }
-  const numberCheck = (e) => {
-    const { value } = e.target
-    if (!!value.match(/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im)) {
-      setData({ ...data, phoneno: e.target.value })
-    } else {
-      toast.warning('Enter Valid Phone number')
-    }
-
-  }
- 
-
-
+  
   return (
     <>
       <Navbar className="position-fixed p-3 navbar12">
@@ -79,8 +57,10 @@ function Register() {
 
             <input onChange={(e) => namecheck(e)} placeholder='Name' className='inputbox' type="text" required /><br />
             <input onChange={(e) => setData({ ...data, age: e.target.value })} placeholder='Age' className='inputbox' type="number" required /><br />
-            <input onChange={(e) => emailCheck(e)} placeholder='Email' className='inputbox' type="email" required /><br />
-            <input onChange={(e) => numberCheck(e)} placeholder='Phone' className='inputbox' type="text" required /><br />
+            <input onChange={(e) =>setData({ ...data, email: e.target.value })
+} placeholder='Email' className='inputbox' type="email" required /><br />
+            <input onChange={(e) =>setData({ ...data, phoneno: e.target.value })
+} placeholder='Phone' className='inputbox' type="text" required /><br />
             {/* <input onChange={(e)=>setData({...data,password:e.target.value})} placeholder='Password' className='inputbox' type="password" /><br /> */}
             <button onClick={() => signupForm()} className='signup' ><Link className='linksighnup'>REGISTER</Link></button>
           </form>
