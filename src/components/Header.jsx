@@ -114,7 +114,7 @@ function Header() {
       <Navbar expand="lg" className="navbar22">
         <Container>
           <Navbar.Brand href="#home"><Link className='backto text-light' to={'/'}>POSTY</Link></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle className='togglebutton' aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Navbar.Text>
               {/* <Button className='buttons' variant="" onClick={handleShow}>

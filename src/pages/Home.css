@@ -58,6 +58,9 @@
 .card22{
     width: 17rem;
 }
+.togglebutton{
+    background-color: white;
+}
 @media(max-width:600px){
     *{
         overflow-x: hidden;
