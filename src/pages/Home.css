@@ -1,0 +1,114 @@
+*{
+    /* overflow-y: hidden; */
+}
+#firstdiv {
+    height: 100vh;
+    margin-top: 30px;
+}
+
+#seconddiv {
+    margin-top: 10px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+#thirddiv{
+    margin-top: 100px;
+  
+}
+.home{
+    /* background-color: black; */
+}
+
+.blogimage {
+    margin-left: 40px;
+    width: 550px;
+    height: 500px;
+}
+.icons{
+    margin-left: 40px;
+}
+.blogtext{
+    margin-left: 40px;
+}
+.posts{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.profilepic{
+    width: 160px;
+    margin-left: 50px;
+    background-color: aquamarine;
+    border-radius: 200px;
+    padding: 10px;
+
+}
+.bloghead{
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    width: 550px;
+    background-color: rgb(207, 219, 219);
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+.card22{
+    width: 17rem;
+}
+@media(max-width:600px){
+    *{
+        overflow-x: hidden;
+    }
+    
+    #firstdiv {
+        position: relative;
+        height: 400px;
+        margin-top: 30px;
+    }
+    
+    #seconddiv {
+        position: relative;
+        margin-top: -300px;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    #thirddiv{
+        position: absolute;
+        width: 280px;
+        margin-top: -20px;
+        margin-left: 180px;
+      
+    }
+    .profilepic{
+        width: 100px;
+        margin-left: 50px;
+        background-color: aquamarine;
+        border-radius: 200px;
+        padding: 10px;
+    
+    }
+    .profilehead{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-right: 200px;
+    }
+    .card22{
+        width: 14rem;
+    }
+    .textdiv{
+        margin-left: -50px;
+        padding: 10px;
+    }
+    .postdiv{
+        margin-left: -30px;
+    }
+    .phonehead{
+        margin-left: 50px;
+    }.blogimage {
+       
+        height: auto;
+    }
+}

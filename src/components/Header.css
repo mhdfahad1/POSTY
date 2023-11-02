@@ -1,0 +1,30 @@
+#drpodwn{
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 10px;
+}
+.backto{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    background-color:  #002e4d;
+}
+.newpost{
+    /* color: white;*/
+    /* background: none; */
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+@media(max-width:600px){
+    .footerButton{
+        width: 430px;
+    }
+    .phonehead{
+        margin-left: 60px;
+    }
+}

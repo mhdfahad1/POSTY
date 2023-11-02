@@ -1,0 +1,58 @@
+.inputbox {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.signup {
+    margin-left: 110px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.formfields{
+}
+
+
+.signuppage {
+    background:url(https://th.bing.com/th/id/R.2deada73e9ac21c977af51273d04ac41?rik=AfTGnPletbT9jQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fntYEFqo.jpg&ehk=YoGZa1LmdltRG4BJ5DfnuyvBO8Brsu1ummTkbnve%2bwk%3d&risl=&pid=ImgRaw&r=0);
+    /* filter: brightness(45%); */
+    height:100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.loginwe{
+    color: white;
+    margin-left: 530px;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+.link{
+    text-decoration: none;
+}
+.linksighnup{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:600px) {
+    *{
+        overflow-x: hidden;
+    }
+    .loginwe{
+        color: white;
+        margin-left: 130px;
+        margin-top: 40px;
+        position: absolute;
+        
+    }
+}
