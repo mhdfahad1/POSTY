@@ -111,7 +111,7 @@ function Header() {
   const modalshow = () => setCome(true);
   return (
     <div>
-      <Navbar expand="lg" className="navbar">
+      <Navbar expand="lg" className="navbar22">
         <Container>
           <Navbar.Brand href="#home"><Link className='backto text-light' to={'/'}>POSTY</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

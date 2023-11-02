@@ -77,7 +77,7 @@
     }
     #thirddiv{
         position: absolute;
-        width: 280px;
+        width: 250px;
         margin-top: -20px;
         margin-left: 180px;
       
@@ -91,9 +91,9 @@
     
     }
     .profilehead{
-        font-size: 20px;
-        margin-top: 50px;
-        margin-right: 200px;
+        font-size: 25px;
+        margin-top: 60px;
+        margin-right: 0px;
     }
     .card22{
         width: 14rem;

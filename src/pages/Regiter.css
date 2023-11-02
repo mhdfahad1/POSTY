@@ -43,6 +43,10 @@
     text-decoration: none;
     color: white;
 }
+.navbar12{
+    /* background-color: transparent; */
+    background: none;
+}
 
 @media(max-width:600px) {
     *{
